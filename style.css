@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+ .center{
+   position: relative;
+   left: 40%;
+  
+ }
+ .info{
+    margin: 10px 0px 50px ;
+ }
+ .del{
+    color: red;
+    padding: 0px 10px;
+ }
+ .add{
+    color: green;
+    padding: 0px 10px;
+ }
+ .containerdec{
+   background-color: aqua;
+   width: 220px;
+   margin-bottom: 10px;
+   padding: 20px 10px;
+   border-top-right-radius: 10px;
+   border-bottom-left-radius: 10px;
+ }
+
+ .spacebtwn{
+   display: flex;
+   justify-content: space-between;
+
+ }
