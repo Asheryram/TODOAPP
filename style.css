@@ -3,33 +3,61 @@
     margin: 0;
     padding: 0;
 }
- .center{
-   position: relative;
-   left: 40%;
-  
- }
- .info{
-    margin: 10px 0px 50px ;
- }
+
+/*****Do not touch :(*****/
  .del{
     color: red;
     padding: 0px 10px;
  }
+
  .add{
-    color: green;
-    padding: 0px 10px;
- }
+  color: green;
+  padding: 0px 10px;
+}
+
  .containerdec{
-   background-color: aqua;
-   width: 220px;
-   margin-bottom: 10px;
-   padding: 20px 10px;
-   border-top-right-radius: 10px;
-   border-bottom-left-radius: 10px;
+  color: blueviolet;
  }
 
  .spacebtwn{
+  background-color: antiquewhite;
    display: flex;
    justify-content: space-between;
+   margin: 20px 20px;
+ padding: 10px 10px;
+ border-top-right-radius: 10px;
+ border-bottom-left-radius: 10px;
 
+ }
+
+ /**********You can change below :)***************/
+.container0{
+  outline: solid 1px black;
+  border-radius: 20px;
+  position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%,-50%);
+ min-height: 300px;
+ min-width: 300px;
+}
+.container1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5px 5px;
+}
+.container2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container3{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 30px;
+}
+ .spaceitem{
+margin: 5px 10px;
  }
